@@ -4,7 +4,10 @@ import Vue from 'vue'
 
 //引入路由
 import router from './router.js';
+
 import './css/base.css';
+
+import 'amfe-flexible';
 
 //引入vat
 import {
