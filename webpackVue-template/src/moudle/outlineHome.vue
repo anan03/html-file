@@ -1,6 +1,7 @@
 <template>
 	<div class="outline_home">
-		<router-link class="outline_item" v-for="(item,index) in courseData" :to="item.url" :key="item.courseName" tag="div">
+		<router-link class="outline_item" v-for="(item,index) in courseData" :to="item.url" :key="item.courseName"
+			tag="div">
 			<img :src="item.icon" />
 			<div class="item_bottom">
 				<p class="title">{{item.courseName}}</p>
@@ -18,31 +19,36 @@
 						courseName: 'HTML总结',
 						icon: require('../images/html.jpeg'),
 						info: 'Androi知识点总结',
-						url:'/html'
+						url: '/html'
 					}, {
 						courseName: 'Android',
 						info: 'Androi知识点总结',
 						icon: require('../images/Android.jpeg'),
-						url:'/html'
+						url: '/html'
 					},
 					{
 						courseName: 'ios',
 						icon: require('../images/ios.jpeg'),
 						info: 'ios课程总结',
-						url:'/html',
+						url: '/html',
 					},
 					{
 						courseName: '微信小程序',
 						icon: require('../images/Android.jpeg'),
-						info: 'Androi知识点总结',
-						url:'/html',
+						info: '微信小程序总结',
+						url: '/wxin',
 					},
-
 					{
 						courseName: 'JS总结',
 						icon: require('../images/Android.jpeg'),
 						info: 'Androi知识点总结',
-						url:'/html',
+						url: '/html',
+					},
+					{
+						courseName: 'Flutter',
+						icon: require('../images/Android.jpeg'),
+						info: 'Flutter知识点总结',
+						url: '/flutter',
 					}
 				]
 			}

@@ -1,5 +1,6 @@
 <template>
 	<div class="login_bg">
+		<title-bar> </title-bar>
 		<h3>用户登录</h3>
 		<img class="icon" :src="icon" />
 		<div class="input_view" v-for="(item,index) in inputLoginData" :key="item.icon">
@@ -14,6 +15,7 @@
 	</div>
 </template>
 <script>
+	import titleBar from '../template/TitleBar.vue';
 	export default {
 		data() {
 			return {
@@ -40,6 +42,9 @@
 					}
 				]
 			}
+		},
+		components:{
+			titleBar,
 		},
 		methods: {},
 	}
