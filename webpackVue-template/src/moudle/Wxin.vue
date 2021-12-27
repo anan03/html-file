@@ -24,7 +24,13 @@
 						icon: require('../images/html.jpeg'),
 						info: '自定义组件、wxs、父组件和子组件通讯',
 						url: 'https://www.cnblogs.com/huihuizhang/p/15733078.html'
-					}
+					},
+					{
+						courseName: '微信小程序分包',
+						icon: require('../images/html.jpeg'),
+						info: '分包',
+						url: 'https://www.cnblogs.com/huihuizhang/p/15734736.html'
+					},
 				]
 			}
 		},
